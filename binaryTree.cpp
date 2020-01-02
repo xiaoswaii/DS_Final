@@ -157,17 +157,17 @@ void writeFileParenthesis (string ans) {
 
 int main() {
     int myData[100][1000]={0};
-    
     int storeLevel[1000]={0};
     int countColumn = 0;
     int countRow = 0;
     int countArr = 0;
-    
     int countLevelOrder = 0;
     char input;
     string set;
     string str="";
-    
+    remove("./BTree.txt");
+    remove("./BTree_boundary.txt");
+    remove("./BTree_PRep.txt");
     string levelStr="";
     int arr[100];
     int sizearr=0;
